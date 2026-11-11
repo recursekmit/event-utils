@@ -1,11 +1,29 @@
-# Task context
+# Idea and problem statement
 
-Load only what the task needs:
+## Problem
 
-- Current implemented layout and setup: [README](../README.md), [local setup](../INSTRUCTIONS.md), and code under `apps/`.
-- Phase gates and domain invariants: [phase-wise plan](../PHASE_WISE_IMPLEMENTATION.md), relevant phase only.
-- Early architecture and accepted decisions: [architecture draft](architecture.md), especially its ADR log; [ADR 025](adr/025-phase-zero-foundation.md) records this scaffold and [ADR 026](adr/026-postgresql-job-queue.md) selects the Phase 0 job transport.
-- Module documentation: none yet; add it with the first module.
-- Assignment, dependencies, and acceptance criteria: the relevant GitHub issue and PR.
+Clubs and institutions run the same kinds of events every year: hackathons, recruitment drives, workshops, and fests. Each time, someone builds a one-off website and a pile of forms and spreadsheets for registration, teams, submissions, and judging. That work is thrown away after the event, the next organizers start again from nothing, and participant data ends up scattered across tools nobody maintains.
 
-For interrupted work, keep a task-specific checkpoint in the issue or PR with branch, base/verified commit, completed and uncommitted work, checks, blockers, and next action. Do not maintain a global progress log.
+## Idea
+
+event-utils is one reusable, open-source, self-hosted platform that runs all of an institution's events from a single installation, so a new event is configured, not rebuilt.
+
+## Who it is for
+
+- **Organizers** set up an event, give it its own look, and choose which features it uses.
+- **Participants** find an event, register, form teams, and submit their work.
+- **Judges and staff** score submissions and help run the event on the day.
+
+## What an event needs
+
+- Its own public page and branding.
+- Registration and team formation.
+- Problem statements and submissions (for hackathons).
+- Judging and published results.
+- Day-of and follow-up tasks such as check-in and certificates.
+
+Not every event needs all of these; organizers pick what applies.
+
+## Status of this document
+
+This is the only document describing the project. There is no code, architecture, roadmap, or delivery sequence.

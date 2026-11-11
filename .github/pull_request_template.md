@@ -5,14 +5,11 @@ Closes #
 ## Scope and dependencies
 
 - Changed paths:
-- Dependent contract/migration PRs:
 
 ## Validation
 
-- Commands and results:
-- Database or browser check:
+- Checks and results:
 
 ## Review notes
 
-- Migration or dependency impact:
 - Risks and follow-up:

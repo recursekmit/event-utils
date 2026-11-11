@@ -1,5 +1,5 @@
 name: Feature or task
-description: Propose one deliverable aligned with a phase gate.
+description: Propose one deliverable.
 title: "[Task] "
 body:
   - type: textarea
@@ -17,7 +17,7 @@ body:
   - type: textarea
     id: dependencies
     attributes:
-      label: Dependencies and phase
+      label: Dependencies
   - type: textarea
     id: write_scope
     attributes:
